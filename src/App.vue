@@ -6,6 +6,7 @@ const route = useRoute()
 </script>
 
 <template>
+  <Toast/>
   <div v-if="route.name === 'login'">
     <RouterView />
   </div>

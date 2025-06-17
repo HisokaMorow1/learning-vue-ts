@@ -17,7 +17,10 @@ declare module 'vue' {
     Header: typeof import('./src/components/base/Header.vue')['default']
     InputText: typeof import('primevue/inputtext')['default']
     Menubar: typeof import('primevue/menubar')['default']
+    Password: typeof import('primevue/password')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Toast: typeof import('primevue/toast')['default']
+    UserForm: typeof import('./src/components/forms/UserForm.vue')['default']
   }
 }
